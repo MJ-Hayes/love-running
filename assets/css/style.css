@@ -115,6 +115,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
+/* NOTE: This query doesnt seem to work for the ipad air device, even though it meets the requirments screen width */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
