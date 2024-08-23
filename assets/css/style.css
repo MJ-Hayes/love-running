@@ -208,6 +208,15 @@ main {
     color: #fafafa
 }
 
+/* Gallery Page */
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+    }
+
+    #photos {
+        line-height: 0;
+    }
 /* Footer */
 #social-networks {
     text-align: center;
@@ -223,7 +232,13 @@ main {
     color: #3a3a3a;
 }
 
-
+/* Media query: tablets and larger (567px and up) */
+@media screen and (min-width: 567px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 /* NOTE: This query doesnt seem to work for the ipad air device, even though it meets the requirments screen width */
@@ -282,6 +297,12 @@ main {
     #benefits-mental > div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 
@@ -291,6 +312,11 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+    
 }
 
 /* Media query: desktop and larger (1200px and up) */
@@ -319,4 +345,10 @@ main {
     #benefits-physical > div {
         align-self: flex-start;
     }
+    
+    /* Gallery */
+    #photos {
+        column-count: 5;
+    }
+
 }
