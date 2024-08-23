@@ -250,7 +250,15 @@ main {
         border: 1px solid #fafafa;
         border-radius: 2px;
         padding: 0 5px;
-        
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
     .radio-buttons {
@@ -267,6 +275,8 @@ main {
         color: #fafafa;
         font-size: 100%;
     }
+
+    
 
 /* Footer */
 #social-networks {
@@ -354,6 +364,20 @@ main {
     #photos {
         column-count: 3;
     }
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+
 }
 
 
