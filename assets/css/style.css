@@ -1,6 +1,9 @@
+
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 
+/*THIS SECTION IS NOT IN THE CODE-INSTITUTE SOLUTIONS REPOSITORY, WHY NOT? */
+/*START-------------------------------------------------------------------------*/
 .lato-light {
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -16,6 +19,8 @@
     font-weight: <weight>;
     font-style: normal;
   }
+/*END---------------------------------------------------------------------------*/
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -136,23 +141,28 @@ main {
 
 /* reasons */
 #reasons {
-    margin: 20px auto;
     width: 90%;
+    margin: 20px auto;
 }
-#benefits: {
-    margin-top: 20px;
-}
-#reasons > h2 {
+
+#reasons h2 {
     font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
 }
-#reasons hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
+
 #benefits-physical > div #benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
+}
+
+#benefits p {
     padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 
