@@ -10,15 +10,7 @@
     font-style: normal;
   }
   
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 200 to 700
-  
-  .oswald-<uniquifier> {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+
 /*END---------------------------------------------------------------------------*/
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -158,7 +150,7 @@ main {
     text-align: center;
 }
 
-#benefits-physical > div #benefits-mental > div {
+#benefits-physical > div, #benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -347,7 +339,7 @@ main {
     #benefits-mental {
         display: flex;
         flex-direction: column;
-        width: 100;
+        width: 100%;
     }
 
     #benefits-physical > div,
@@ -398,7 +390,7 @@ main {
 @media screen and (min-width: 1200px) {
     #benefits {
         display: flex;
-        flex-wrap: row;
+        flex-direction: row;
     }
 
     #benefits > div {
