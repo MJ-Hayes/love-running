@@ -169,7 +169,7 @@ main {
     background: url("../images/reasons-image.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 90%;
+    margin-bottom: 20px;
     /* Make the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
