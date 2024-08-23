@@ -269,9 +269,25 @@ main {
     #benefits {
         display: flex;
         flex-wrap: row;
-        justify-content: space-between;
     }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
     #benefits-mental {
-        order: 3;
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-start;
     }
 }
